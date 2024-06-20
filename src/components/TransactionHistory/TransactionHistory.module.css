@@ -1,7 +1,9 @@
 .table {
+  display: flex;
   width: 600px;
   border-collapse: collapse;
   margin-top: 20px;
+  justify-content: center;
 }
 .th {
   border: 1px solid black;
