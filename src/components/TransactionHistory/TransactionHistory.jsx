@@ -1,4 +1,5 @@
 import Transaction from "../Transaction/Transaction";
+import css from "../TransactionHistory/TransactionHistory.module.css";
 
 export default function TransactionHistory({ transactions }) {
   return (
