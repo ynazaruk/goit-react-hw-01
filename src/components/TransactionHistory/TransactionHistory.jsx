@@ -3,12 +3,12 @@ import css from "../TransactionHistory/TransactionHistory.module.css";
 
 export default function TransactionHistory({ transactions }) {
   return (
-    <table>
+    <table className={css.table}>
       <thead>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={css.th}>Type</th>
+          <th className={css.th}>Amount</th>
+          <th className={css.th}>Currency</th>
         </tr>
       </thead>
 
