@@ -1,11 +1,12 @@
+import css from "../Transaction/Transaction.module.css";
 export default function Transaction({
   transaction: { type, amount, currency },
 }) {
   return (
-    <tr>
-      <td>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
+    <tr className={css.tr}>
+      <td className={css.td}>{type}</td>
+      <td className={css.td}>{amount}</td>
+      <td className={css.td}>{currency}</td>
     </tr>
   );
 }
